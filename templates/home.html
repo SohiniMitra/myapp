@@ -1,0 +1,19 @@
+
+<html>
+<body background= "bg1.jpg">
+<br><br><br><br>
+<center><u><h2>Welcome to movie tweets and reviews</h2></u></center>
+<center><img src="img.jpg"></img></center>
+	<form action='/' method = 'POST'>
+		{% csrf_token %}
+		<br><br>
+		<center>
+		Enter the movie name
+		<br><br><input type=text name=movie size=50></input>
+		<br><br>
+		<input type=submit name=Get_Review value='Get_Review'></input>
+		</center>
+	</form>
+</body>
+</html>
+
