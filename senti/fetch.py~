@@ -34,6 +34,7 @@ def search(text,limit):
 def sentiment_analysis(text,limit):
 	tweets_list = search(text,limit)
 	sentiments = []
+	del tweet_pol[:]
 	pos=0
 	neg=0
 	pos_sum = 0.0
